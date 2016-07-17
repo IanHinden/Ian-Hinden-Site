@@ -97,10 +97,13 @@
 				window.location.assign("gameoverstarved.html");
 			}
 		if(boredom == 100){
-				window.location.assign("gameoverbored.html")
+				window.location.assign("gameoverbored.html");
 			}
+		if(boredom < 0){
+				window.location.assign("gameovertired.html");
+		}
 		if(age == 20){
-				window.location.assign("gamewon.html")
+				window.location.assign("gamewon.html");
 			}
 	}
 
