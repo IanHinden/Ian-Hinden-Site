@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to Digillama, the Digital Llama</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="scripts/main.js"></script>
+	</head>
+	
+<body>
+
+<div>
+	<h1>Welcome to Digillama, the Digital Llama</h1>
+	<button id="started" onclick="beginGame()" class="buttons">Begin</button>
+</div>
+	<img id="dragon" src="images/happy.jpg">
+
+<div>
+	<p class= "hidden">LLAMA STATS</p>
+</div>
+<div>
+	<h2 id = "age"></h2>
+	<h2 id = "numvar"></h2>
+	<h2 id = "boredom"></h2>
+	<h2 id = "sickness"></h2>
+</div>
+
+<div class="buttons">
+<button id="subtract" onclick="substractNum()" class="hidden">Feed</button>
+<button id="play" onclick="playGame()" class="hidden">Play</button>
+<button id="heal" onclick="medicate()" class="hidden">Medicate</button>
+</div>
+
+<p id="gamestatus">
+</p>
+	
+</script>
+</body>
+</html>
